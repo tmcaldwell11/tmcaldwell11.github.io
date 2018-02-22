@@ -1,0 +1,410 @@
+body {
+	background-color: #f9f9f9;
+}
+ 
+a {
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+	text-decoration: none;
+}
+ 
+em {
+	font-style: oblique;
+}
+ 
+strong {
+	font-style: bold;
+}
+ 
+img {
+	width: 100%;
+}
+ 
+h1, h2, h3, h4, h5 {
+	font-family: 'proxima-nova', sans-serif;
+	font-style: normal;
+}
+ 
+h2 {
+	text-transform: capitalize;
+	font-size: 1.875em;
+	padding: 0 0 1% 0;
+	color: #001833;
+	font-weight: 800;
+}
+
+/* Add background color to the top navigation */
+
+.nav {
+	width: 100%;
+	height: 76px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	
+}
+ 
+ul {
+	list-style: none;
+}
+ 
+li {
+	display: inline-block;
+	float: left;
+	padding: 10px
+}
+ 
+a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+ 
+a:hover {
+	text-decoration: underline;
+}
+ 
+
+nav {
+	float: right;
+	padding: 20px;
+	font-family: 'proxima-nova', sans-serif;
+}
+ 
+#menu-icon {
+	background: url(img/menu-icon.png) no-repeat center;
+	display: hidden;
+	width: 32px;
+	height: 32px;
+}
+
+/*MEDIA QUERY*/
+@media only screen and (max-width : 640px) {
+ 
+.nav {
+ 	position: absolute;
+ }
+ 
+ #menu-icon {
+ 	display:inline-block;
+ }
+ 
+ nav ul, nav:active ul { 
+ 	display: none;
+ 	position: absolute;
+ 	padding: 20px;
+ 	background: #c5c5c5;
+ 	right: 10px;
+ 	top: 65px;
+ 	width: 35%;
+ }
+ 
+ nav:hover ul {
+ 	display: block;
+ }
+ 
+ nav li {
+ 	text-align: center;
+ 	width: 100%;
+ 	padding: 15px 0;
+ 	margin: 0;
+ }
+}
+
+header {
+	background: linear-gradient( rgba(224, 204, 200, 1.0), rgba(224, 204, 200, 0.50)), /* bottom, image */
+	url("http://www.livingfornaptime.com/wp-content/uploads/2016/10/hc-styled-stock-healthy-food-life-pink-accessories-17-final.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	/* Set a specific height */
+    height: 960px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+.to-top {
+	display: none;
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	color: grey;
+	padding: 9px 12px;
+	border-radius: 50%;
+	cursor: pointer;
+	font-size: 50px
+}
+
+.to-top:hover {
+	color: #011833;
+}
+
+
+.intro {
+	max-width: 640px;
+	margin: 0 auto;
+	padding: 15% 0;
+}
+
+.intro h1 {
+	font-size: 3em;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-weight: 700;
+	line-height: 1.5em;
+
+}
+
+.intro h1.box{
+	box-sizing: border-box;
+    width: 400px;
+    padding: 50px;
+    margin: auto;    
+    border: 10px solid;
+}
+ 
+.intro p {
+	font-size: 2em;
+	text-align: center;
+	color: #fff;
+	font-weight: 300;
+	font-family: proxima-nova, sans-serif;
+	letter-spacing: 0.09em;
+}
+
+.wrapper-1 {
+	max-width: 960px;
+	margin: 0 auto;
+	font-family: proxima-nova, sans-serif;
+	-webkit-animation-delay: 4s;
+	/* Chrome, Safari, Opera */
+	animation-delay: 2s;
+}
+ 
+.arrow-down {
+	width:100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.arrow-down::after {
+	content: "";
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: -80%;
+	left: 0;
+	border-right: 8px solid #fff;
+	border-bottom: 8px solid #fff;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-animation: 3s arrow infinite ease;
+	animation: 3s arrow infinite ease;
+}
+
+@-webkit-keyframes arrow {
+	0%, 100% {
+		top: 50px;
+	}
+	 50% {
+	 	top: 80px;
+	 }
+}
+
+@keyframes arrow {
+	0%, 100% {
+		top: 50px;
+	}
+	 50% {
+	 	top: 80px;
+	 }
+}
+
+.about {
+	padding: 4% 0;
+}
+
+.about h2 {
+	text-align: center;
+	color: #616569;
+}
+
+.about p {
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 1.8;
+	color: #616569;
+	letter-spacing: .01em;
+	margin: 0 auto;
+	font-size: 1.5em;
+	padding: 2% 0;
+}
+ 
+.about p a{
+	color: #E1CCC9;
+	border-bottom: 2px solid;
+}
+
+.avatar {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.work {
+	padding: 4% 0;
+}
+
+.work h2 {
+	text-align: center;
+	color: #616569;
+}
+
+.work p {
+	font-family: proxima-nova, sans-serif;
+	text-align: center;
+	color: #616569;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+.responsive-image {
+  max-width: 100%;
+}
+
+.cell img {
+  display: block;
+}
+
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(100% / 3);
+  }
+}
+
+.cell {
+  margin: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  .cell {
+    width: calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(33.3333% - 2rem);
+  }
+}
+
+
+.contact {
+	width: 100%;
+	background-color: #011833;
+	padding: 5% 0;
+	margin-top: 5%;
+	clear: both;
+}
+ 
+.contact-content {
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+ 
+.contact-content h4 {
+	font-size: 1.875em;
+	padding: 1% 0;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 0.04em;
+}
+ 
+.contact-content a {
+	color: #E0CCC8;
+	text-decoration: none;
+}
+ 
+.image-divider {
+	padding: 15% 0;
+	background: /* bottom, image */
+	url(https://images.pexels.com/photos/843226/pexels-photo-843226.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+	background-size: cover;
+	background-position: center top;
+}
+
+footer {
+ background-color: #E0CCC8;
+ color: #fff;
+ padding: 3% ;
+ width: 100%;
+ height: 100px;
+}
+
+.footer-content {
+ max-width: 350px;
+ padding:2% 0;
+ margin: 0 auto;
+ font-family: 'proxima-nova', sans-serif;
+ font-style: normal;
+ font-weight: 300;
+ line-height: 1.4;
+ color: #fff;
+ letter-spacing: .03em;
+ font-size: 1em;
+}
+
+ 
+.social li {
+ display: inline;
+}
+ 
+.social li a {
+ color: #fff;
+ padding: 0.5em;
+ font-size: 1.8em;
+ font-weight: 600;
+}
+ 
+.social li a:hover {
+ color: #011833;
+}
+
+
+
