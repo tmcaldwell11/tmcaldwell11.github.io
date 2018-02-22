@@ -368,7 +368,7 @@ header {
 }
  
 .image-divider {
-	padding: 15% 0;
+	padding: 0;
 	background: /* bottom, image */
 	url(https://images.pexels.com/photos/843226/pexels-photo-843226.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
 	background-size: cover;
