@@ -3,7 +3,10 @@ html, body {
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2968a905348be97141374a6df5a09f520cf31f55
 }
  
 a {
@@ -367,7 +370,7 @@ header {
 }
  
 .image-divider {
-	padding: 15% 0;
+	padding: 0;
 	background: /* bottom, image */
 	url(https://images.pexels.com/photos/843226/pexels-photo-843226.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
 	background-size: cover;
@@ -379,6 +382,7 @@ footer {
  color: #fff;
  padding: 0;
  padding-bottom: 5%;
+margin: 0;
  width: 100%;
  height: 100px;
 }
