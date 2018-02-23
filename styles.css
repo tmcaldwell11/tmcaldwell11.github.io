@@ -2,7 +2,8 @@ html, body {
 	background-color: #f9f9f9;
 	margin: 0;
 	padding: 0;
-	
+	overflow-x: hidden;
+
 }
  
 a {
@@ -12,6 +13,13 @@ a {
 	-webkit-transition: .5s;
 	transition: .5s;
 	text-decoration: none;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
 }
  
 em {
@@ -61,16 +69,6 @@ li {
 	display: inline-block;
 	float: left;
 	padding: 10px
-}
- 
-a {
-	color: #fff;
-	text-decoration: none;
-	font-weight: bold;
-}
- 
-a:hover {
-	text-decoration: underline;
 }
  
 
@@ -178,7 +176,7 @@ header {
     width: 400px;
     padding: 50px;
     margin: auto;    
-    border: 10px solid;
+   
 }
  
 .intro p {
