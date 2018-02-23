@@ -50,7 +50,7 @@ h2 {
 
 .nav {
 	width: 100%;
-	height: 76px;
+	height: 75px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -72,7 +72,7 @@ li {
  
 nav {
 	float: right;
-	padding: 20px;
+	padding: 10px;
 	font-family: 'proxima-nova', sans-serif;
 }
  
@@ -114,7 +114,7 @@ nav {
 
 header {
 	background: linear-gradient( rgba(224, 204, 200, 1.0), rgba(224, 204, 200, 0.50)), /* bottom, image */
-	url("http://www.livingfornaptime.com/wp-content/uploads/2016/10/hc-styled-stock-healthy-food-life-pink-accessories-17-final.jpg");
+	url("https://images.pexels.com/photos/768939/pexels-photo-768939.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
 	background-size: cover;
 	background-position: center;
 	width: 100%;
@@ -149,7 +149,7 @@ header {
 
 
 .intro {
-	max-width: 640px;
+	max-width: 100%;
 	margin: 0 auto;
 	padding: 20% 0;
 }
@@ -250,8 +250,8 @@ header {
 	color: #616569;
 	letter-spacing: .01em;
 	margin: 0 auto;
-	margin-left: 5%;
-    margin-right: 5%;
+	margin-left: 10%;
+    margin-right: 10%;
 	font-size: 1.3em;
 	padding: 2% 0;
 }
@@ -314,7 +314,7 @@ header {
 
 @media screen and (min-width: 1000px) {
   .cell {
-    width: calc(100% / 3);
+    width: calc(100% / 2);
   }
 }
 
@@ -330,7 +330,7 @@ header {
 
 @media screen and (min-width: 1000px) {
   .cell {
-    width: calc(33.3333% - 2rem);
+    width: calc(50% - 2rem);
   }
 }
 
@@ -362,13 +362,13 @@ header {
 	text-decoration: none;
 }
  
- /* bottom, image */
+ /* bottom, image 
 .image-divider {
 	padding: 15% 0;
 	background: url(https://images.pexels.com/photos/843226/pexels-photo-843226.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
 	background-size: cover;
 	background-position: center top;
-}
+}*/
 
 footer {
  background-color: #E0CCC8;
