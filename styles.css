@@ -115,7 +115,7 @@ nav {
 
 header {
 	background: linear-gradient( rgba(224, 204, 200, 1.0), rgba(224, 204, 200, 0.50)), /* bottom, image */
-	url("https://rebelsaurus.com/wp-content/uploads/2016/05/feminine-flat-lay-photos21.jpg");
+	url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/4070496/910/646/m1/fpnw/wm0/screen-shot-2018-02-27-at-4.49.48-pm-.png?1519779534&s=93adae3a9b23d99f9ab85420a40e693e");
 	background-size: cover;
 	background-position: center;
 	width: 100%;
@@ -149,9 +149,9 @@ header {
 }
 
 .intro {
-	max-width: 100%;
+	max-width: 100%
 	margin: 0 auto;
-	padding: 20% 0;
+	padding: 25% 10px;
 }
 
 .intro h1 {
@@ -362,11 +362,12 @@ header {
 	color: #E0CCC8;
 	text-decoration: none;
 }
+
  
- /* bottom, image 
-.image-divider {
+ 
+/*.image-divider {
 	padding: 15% 0;
-	background: url(https://images.pexels.com/photos/843226/pexels-photo-843226.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+	background: url(https://images.pexels.com/photos/238118/pexels-photo-238118.jpeg?h=350&auto=compress&cs=tinysrgb);
 	background-size: cover;
 	background-position: center top;
 }*/
@@ -376,15 +377,16 @@ footer {
  color: #fff;
  padding: 0;
  padding-bottom: 5%;
-margin: 0;
+ margin: 0;
  width: 100%;
  height: 100px;
 }
 
 .footer-content {
- max-width: 350px;
+ max-width: 320px;
  padding:2% 0;
  margin: 0 auto;
+ text-align: center;
  font-family: 'proxima-nova', sans-serif;
  font-style: normal;
  font-weight: 300;
@@ -397,6 +399,8 @@ margin: 0;
  
 .social li {
  display: inline;
+ float: none;
+
 }
  
 .social li a {
@@ -407,7 +411,7 @@ margin: 0;
 }
  
 .social li a:hover {
- color: #011833;
+ color: #E0CCC8;
 }
 
 
