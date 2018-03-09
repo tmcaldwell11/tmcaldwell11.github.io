@@ -193,8 +193,12 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
- 
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
 }
+
+
 
 /*scroll to top icon*/
 .to-top {
@@ -213,6 +217,7 @@ header {
 	color: #011833;
 }
 
+/*intro statement*/
 .intro {
 	max-width: 100%
 	margin: 0 auto;
