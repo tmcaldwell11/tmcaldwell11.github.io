@@ -4,7 +4,8 @@ html, body {
 	padding: 0;
 	overflow-x: hidden;
 }
- 
+
+/*need to make edits for these tags*/
 a {
 	-o-transition: .3s;
 	-ms-transition: .3s;
@@ -48,7 +49,61 @@ h2 {
 }
 
 /* navigation */
-.nav {
+span{
+	float:right;
+	color: #ffffff;
+	padding: 10px;
+	font-size:40px;
+	cursor:pointer;
+
+}
+
+.sidenav {
+	font-family:'proxima-nova', sans-serif;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #818181;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    letter-spacing: .05em;
+
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav a:hover {
+    color: #E0CCC8;
+   
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+
+
+}
+/*.nav {
 	width: 100%;
 	height: 76px;
 	position: absolute;
@@ -91,12 +146,8 @@ nav {
 	height: 32px;
 }
 
-/*MEDIA QUERY*/
+/*MEDIA QUERY*
 @media only screen and (max-width : 640px) {
-
-.nav {
- position: absolute;
- }
  
 #menu-icon {
  	display:inline-block;
@@ -123,8 +174,9 @@ nav {
  	padding: 15px 0;
  	margin: 0;
  }
-}
+}*/
 
+/*Background image*/
 header {
 	background: linear-gradient( rgba(224, 204, 200, 1.0), rgba(224, 204, 200, 0.80)), /* header, image */
 	url("https://images.pexels.com/photos/390573/pexels-photo-390573.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
@@ -144,16 +196,17 @@ header {
  
 }
 
+/*scroll to top icon*/
 .to-top {
 	display: none;
 	position: fixed;
-	bottom: 15px;
-	right: 15px;
-	color: grey;
+	bottom: 10px;
+	right: 10px;
+	color: #818181;
 	padding: 9px 12px;
 	border-radius: 50%;
 	cursor: pointer;
-	font-size: 50px
+	font-size: 40px
 }
 
 .to-top:hover {
@@ -194,7 +247,7 @@ header {
 	letter-spacing: 0.09em;
 }
 
-
+/*animated arrow down visual*/
 .wrapper-1 {
 	max-width: auto;
 	margin: 0 auto;
@@ -246,6 +299,7 @@ header {
 	 }
 }
 
+/*about section*/
 .about {
 	padding: 4% 0;
 }
@@ -285,6 +339,7 @@ header {
     border-radius: 50%;
 }
 
+/*portfolio*/
 .work {
 	padding: 4% 0;
 }
@@ -347,7 +402,7 @@ header {
   }
 }
 
-
+/*contact section*/
 .contact {
 	width: 100%;
 	background-color: #011833;

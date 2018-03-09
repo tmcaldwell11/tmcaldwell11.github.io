@@ -12,16 +12,28 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 
 </head>
+
 <!--Naviagtion-->
 <header>
+	<div id="mySidenav" class="sidenav">
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ 	 	<a href="#">Home</a>
+ 	 	<a href="#About">About</a>
+  		<a href="#Work">Portfolio</a>
+  		<a href="#Contact">Contact</a>
+	</div>
+
+	<span onclick="openNav()">&#9776; </span>
 
 	<div class="intro">
 		<h1 class="box">Teresa<br>Caldwell</h1>
 		<p>Full-Stack Developer</p>
 	</div>
 
+	<div class="arrow-down"></div>
 
-<div id="top" class="nav">
+
+<!--<div id="top" class="nav">
 	<nav>
 		<a href="#top" id="menu-icon"></a>
 		<ul>
@@ -41,7 +53,7 @@
 	</nav>
 </div>
 
-<div class="arrow-down"></div>
+<div class="arrow-down"></div>-->
 
 </header>
 
@@ -54,7 +66,7 @@
 		<div class="about-content">
 			<h2><a name="About"></a>About Me</h2>
 			<img src="img/IMG_7874.jpg" alt="Avatar" class="avatar">
-			<p> Hi, I'm Teresa. I'm a full-stack developer specializing in both front end and back end technologies like Javascript and Ruby. I'm currently contracting as a front end web developer for a financial services company. I have about a year of professional experience after completing a coding bootcamp here in Charlotte, NC. Check out some of the links below to see what projects I've been working on lately.</p>
+			<p> Hi, I'm Teresa. I have a full-stack background but I'm currently contracting as a front end web developer for a financial services company. I have about a year of professional experience after completing a coding bootcamp here in Charlotte, NC. Check out some of the links below to see what projects I've been working on lately.</p>
 		</div>
 	</section>
 </div>
