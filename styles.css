@@ -179,7 +179,7 @@ nav {
 /*Background image*/
 header {
 	background: linear-gradient( rgba(224, 204, 200, 1.0), rgba(224, 204, 200, 0.80)), /* header, image */
-	url("https://images.pexels.com/photos/390573/pexels-photo-390573.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+	url("img/fstockphotosb-22.jpg");
 	background-size: cover;
 	background-position: center;
 	width: 100%;
