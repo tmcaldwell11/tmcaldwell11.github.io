@@ -96,7 +96,7 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 750px;
+    height: 900px;
     overflow: hidden;
 
 	/*url("img/fstockphotosb-20.jpg");
@@ -109,11 +109,11 @@ header {
     padding: 0;
     margin: 0;
 
-    /* Create the parallax scrolling effect */
+    /* Create the parallax scrolling effect 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
 }
 
 
