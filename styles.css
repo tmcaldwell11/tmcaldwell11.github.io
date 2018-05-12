@@ -104,8 +104,7 @@ header {
 
 /*intro statement*/
 div.intro {
-    height: 10em;
-    position: relative 
+    height: 10em; 
     margin: 0;
     position: absolute;
     top: 25%;
