@@ -100,13 +100,6 @@ header {
     overflow: hidden;
  }
 
- @media screen and (max-width: 648px) {
- 	url("img/fstockphotosb-20.jpg"){
- 		height: 300px;
- 	}
- }
-
-
 
 
 /*intro statement*/
