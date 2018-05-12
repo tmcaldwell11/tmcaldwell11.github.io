@@ -103,7 +103,7 @@ span{
 
  @media screen and (max-width:640px) {
     .background-image {
-        width:400px;
+        width:375px;
         margin:10px auto 0 auto;
         background: linear-gradient( rgba(80, 89, 92, .8), rgba(0, 0, 0, .8)), /* header, image */
 	url("img/fstockphotosb-20 copy.jpg") 
