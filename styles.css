@@ -100,11 +100,6 @@ header {
     overflow: hidden;
  }
 
- @media only screen and (max-width: 320px) {
-    header { 
-        background:url("img/fstockphotosb-20.jpg"): margin 0 auto; 
-    }
-}
 
 
 
