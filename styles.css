@@ -100,21 +100,12 @@ header {
     overflow: hidden;
  }
 
-	/*url("img/fstockphotosb-20.jpg");
-	background-size: cover;
-	background-position: center center;
-	width: 100%;
-	
-	/* Set a specific height
-    height: 900px; 
-    padding: 0;
-    margin: 0;
+ @media screen and (max-width: 648px) {
+ 	url("img/fstockphotosb-20.jpg"){
+ 		height: 300px;
+ 	}
+ }
 
-    /* Create the parallax scrolling effect 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
 
 
 
