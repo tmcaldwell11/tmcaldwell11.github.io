@@ -98,6 +98,7 @@ header {
     background-size: cover;
     height: 800px;
     overflow: hidden;
+    background-position: scroll;
  }
 
 
