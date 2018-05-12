@@ -19,7 +19,7 @@ img {
 	height: auto;
 }
  
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, p{
 	font-family: 'proxima-nova', sans-serif;
 	font-style: normal;
 }
@@ -49,8 +49,8 @@ span{
     position: fixed;
     z-index: 1;
     top: 0;
-    left: 0;
-    background-color: #818181;
+    right: 0;
+    background-color: #50595C;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -69,7 +69,7 @@ span{
 }
 
 .sidenav a:hover {
-    color: #E0CCC8;
+    color:#FFD8D8;
    
 }
 
@@ -90,7 +90,7 @@ span{
 
 /*Background image*/
 header {
-	background: linear-gradient( rgba(224, 204, 200, 1.0), rgba(224, 204, 200, 0.80)), /* header, image */
+	background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), /* header, image */
 	url("img/fstockphotosb-20.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -118,39 +118,18 @@ header {
 
 
 /*intro statement*/
-.intro {
-	max-width: 100%
-	margin: 0 auto;
-	padding: 25% 10px;
+div.intro {
+    height: 10em;
+    position: relative 
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
 }
 
-.intro h1 {
-	font-size: 3em;
-	text-align: center;
-	color: #fff;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-	font-weight: 600;
-	line-height: 1.5em;
 
-}
-
-.intro h1.box{
-	width: 295px;
-    padding: 30px;
-    margin: auto; 
-    border-bottom: 5px solid;   
-   
-}
- 
-.intro p {
-	font-size: 2em;
-	text-align: center;
-	color: #fff;
-	font-weight: 300;
-	font-family: proxima-nova, sans-serif;
-	letter-spacing: 0.09em;
-}
 
 /*animated arrow down visual*/
 .wrapper-1 {
@@ -178,8 +157,8 @@ header {
 	right: 0;
 	bottom: -80%;
 	left: 0;
-	border-right: 8px solid #fff;
-	border-bottom: 8px solid #fff;
+	border-right: 5px solid #FFD8D8;
+	border-bottom: 5px solid #FFD8D8;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
 	-webkit-animation: 3s arrow infinite ease;
@@ -310,30 +289,97 @@ header {
 /*contact section*/
 .contact {
 	width: 100%;
-	background-color: #011833;
+	background-color: #302939;
 	padding: 5% 0;
 	margin-top: 5%;
 	clear: both;
 }
  
 .contact-content {
-	max-width: 100%;
+	max-width: 50%;
 	margin: 0 auto;
 	text-align: center;
 }
  
-.contact-content h4 {
-	font-size: 1.5em;
+.contact-content h2 {
 	padding: 1% 0;
 	color: #fff;
 	font-weight: 600;
 	letter-spacing: 0.04em;
 }
- 
-.contact-content a {
-	color: #E0CCC8;
+
+.contact-content p {
+	font-size: 1em;
+	color: #fff;
 	text-decoration: none;
 }
+.contact-content a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+@media (min-width: 12.5em) {
+  .contact {
+    white-space: normal;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 47.5em) {
+  .contact {
+    white-space: nowrap;
+  }
+}
+
+.contact-button {
+  border: 2px white solid;
+  border-radius: 10px;
+  font-family: 'proxima-nova', sans-serif;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+@media (min-width: 10em) {
+  .contact-button {
+    padding: 1em;
+    width: 75%;
+    margin-top: 1.5em;
+  }
+}
+
+@media (min-width: 30em) {
+  .contact-button {
+    width: 40%;
+  }
+}
+
+@media (min-width: 47.5em) {
+  .contact-button {
+    padding: 1em 3em;
+    width: 30%;
+  }
+}
+
+@media (min-width: 63em) {
+  .contact-button {
+    width: 20%;
+    margin-top: 2em;
+  }
+}
+
+.contact-button:hover {
+  background-color: #FFF;
+  color: #50595C;
+}
+
+
 
  
  
@@ -345,7 +391,7 @@ header {
 }*/
 
 footer {
- background-color: #E0CCC8;
+ background-color: #FFD8D8;
  color: #fff;
  padding: 0;
  padding-bottom: 5%;
@@ -363,27 +409,28 @@ footer {
  font-style: normal;
  font-weight: 300;
  line-height: 1.4;
- color: #fff;
+ color: #50595C;
  letter-spacing: .03em;
  font-size: 1em;
 }
 
  
 .social li {
- display: inline;
+ text-align: center;
  float: none;
+ display: inline-block;
 
 }
  
 .social li a {
  color: #fff;
- padding: 0.5em;
- font-size: 1.8em;
+ padding: 25px 25px 0px 0px;
+ font-size: 1.5em;
  font-weight: 600;
 }
  
 .social li a:hover {
- color: #E0CCC8;
+ color:#FFD8D8;
 }
 
 /*scroll to top icon*/
@@ -392,7 +439,7 @@ footer {
 	position: fixed;
 	bottom: 10px;
 	right: 10px;
-	color: #818181;
+	color: #50595C;
 	padding: 9px 12px;
 	border-radius: 50%;
 	cursor: pointer;
