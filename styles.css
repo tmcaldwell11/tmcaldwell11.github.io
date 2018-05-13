@@ -91,7 +91,7 @@ span{
 /*Background image*/
 .background-image{
 	background: linear-gradient( rgba(80, 89, 92, .8), rgba(0, 0, 0, .8)), /* header, image */
-	url("img/banner.jpg") 
+	url("img/pexels-photo-768938.jpg") 
 	no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -101,17 +101,17 @@ span{
     overflow: hidden;
  }
 
- @media screen and (max-width:640px) {
+ /*@media screen and (max-width:640px) {
     .background-image {
-    background: linear-gradient( rgba(80, 89, 92, .8), rgba(0, 0, 0, .8)), /* header, image */
-	url("img/banner.jpg") 
+    background: linear-gradient( rgba(80, 89, 92, .8), rgba(0, 0, 0, .8)), 
+	url("img/pexels-photo-768938.jpg") 
 	no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     }
-}
+}*/
 
 /*intro statement*/
 div.intro {
