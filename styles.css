@@ -101,13 +101,12 @@ span{
     overflow: hidden;
  }
 
- /*@media screen (max-width:667px) {
+ *@media screen (max-width:667px) {
     .background-img {
-    background: url("img/background-close-up-design-872958.jpg") 
-	width: 100%;
-    height: auto;
+    background: url("") 
+	
     }
-}*/
+}
 
 /*intro statement*/
 div.intro {
