@@ -89,7 +89,7 @@ span{
 }
 
 /*Background image*/
-.background-img{
+.background1{
 	background: linear-gradient( rgba(80, 89, 92, .8), rgba(0, 0, 0, .8)), /* header, image */
 	url("img/background-close-up-design-872958.jpg") 
 	no-repeat center center fixed;
@@ -97,11 +97,19 @@ span{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 768px;
+    height: 100vh;
     overflow: hidden;
  }
 
+@media screen and (max-device-width: 667px) {
+	.background1{
+		background: linear-gradient( rgba(80, 89, 92, .8), rgba(0, 0, 0, .8)), /* header, image */
+		url("img/fstockphotosb-20.jpg");
+		background-size: cover;
 
+		
+	}
+}
 
 /*intro statement*/
 div.intro {
